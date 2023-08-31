@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contain{
+  width: 100vw;
+  height: 100vh;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0, 0);
+}
+
+.containMain{
+  position: relative;
+  margin-bottom: 12em;
+  border: 2px solid white;
+  border-radius: .5em;
+  padding: 1.6em;
+  background-color: #f7f7f7;
+}
+
+
+
+/* CSS */
+.buttonOne {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  color: #1d1d1d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 1em auto;
+  outline: none;
+  padding: 0.68em 10.5em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.buttonOne:disabled {
+  pointer-events: none;
+}
+
+.buttonOne:hover {
+  color: #fff;
+  background-color: #000000bd;
+  box-shadow: rgba(0, 0, 0, 0.082) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.buttonOne:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.param{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6em;
+  color: rgb(31, 29, 29);
+}
+
+.inputBox{
+  display: block;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  padding: .7em;
+  width: 12em;
+  height: 1em;
+  margin-bottom: 1em;
+  border-radius: .08em;
+  border: 2px solid black;
+  background-color: transparent;
+  font: 3ch droid sans mono, consolas, monospace;
+  letter-spacing: 0.3ch;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  color: rgb(194, 224, 255);
+}
+.inputBox:focus {
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  color: rgb(194, 224, 255);
+  background-color: black;
+}
+
+.and{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+}
+
+.firstline{
+  width: 8em;
+  height: .07em;
+  border: .1em solid #111111;
+  border-radius: .1em;
+  /* background-color: #111111; */
+  margin: 0 1em;
+}
+
+.paramTwo{
+  text-transform: uppercase;
+  font-size: .6em;
+  font-weight: bold;
+
+}
+
+.signin{
+  display: flex;
+  margin: .7em 0;
+}
+
+.paramSignin{
+  margin: 0 .5em;
+  color: #81c6ff;
+  cursor: pointer;
+}
